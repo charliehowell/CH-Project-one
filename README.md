@@ -88,7 +88,6 @@ The following screenshot displays the result of running `docker ps` after succes
 
 <img width="902" alt="docker_ps_output" src="https://user-images.githubusercontent.com/73140949/110365483-192c4e00-8013-11eb-9f01-d4c996c6e237.png">
 
-charliehowell/docker_ps_output.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
