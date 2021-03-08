@@ -10,8 +10,14 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   -File path for playbooks: 
   root@8f4a0e3c149d:/etc/ansible/roles/elk.yml
+  <img width="443" alt="elk install playbook" src="https://user-images.githubusercontent.com/73140949/110365649-4547cf00-8013-11eb-81e1-f2bf29f14ee7.png">
+
   root@8f4a0e3c149d:/etc/ansible/roles/filebeat-playbook.yml
+  <img width="709" alt="filebeat playbook" src="https://user-images.githubusercontent.com/73140949/110365675-4bd64680-8013-11eb-8761-01b66d1b07fc.png">
+
   root@8f4a0e3c149d:/etc/ansible/roles/metricbeat-playbook.yml
+<img width="706" alt="metricbeat playbook" src="https://user-images.githubusercontent.com/73140949/110365690-509afa80-8013-11eb-91bc-5d94122ad43f.png">
+
 
 This document contains the following details:
 - Description of the Topologu
