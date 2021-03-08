@@ -37,10 +37,8 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly responsive, in addition to restricting traffic to the network. They also protect against DDoS attacks by shifting attack traffic from the corporate server to a public cloud provider. 
-
-A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
-
+Load balancing ensures that the application will be highly responsive, in addition to restricting traffic to the network. Load balancers protect application availability and defend against DDoS attacks my shifting traffic to a public cloud provider.
+The Jump Box minimises the attack surface by ensuring remote connections to the cloud network come through a single VM which is a huge advantage. Remote connections to the Jump Box can be monitored easily to identify unusual remote connections.
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs. Filebeat monitors specified log files or locations while metricbeat collects and ships metrics and statistics to specified outputs.
 
 The configuration details of each machine may be found below.
