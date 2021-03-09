@@ -113,10 +113,10 @@ SSH into the control node and follow the steps below:
 
 ![Screen Shot 2021-03-09 at 12 14 38 PM](https://user-images.githubusercontent.com/73140949/110510317-13953d80-80d1-11eb-821b-ad28221987fc.png)
 
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
+- _Which file is the playbook? Where do you copy it? 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - _Which URL do you navigate to in order to check that the ELK server is running?
 
