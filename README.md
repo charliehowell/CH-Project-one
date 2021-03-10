@@ -10,8 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   
 ELK PLAYBOOK
   
-  root@8f4a0e3c149d:/etc/ansible/roles/elk.yml
-  <img width="443" alt="elk install playbook" src="https://user-images.githubusercontent.com/73140949/110365649-4547cf00-8013-11eb-81e1-f2bf29f14ee7.png">
+  root@8f4a0e3c149d:/etc/ansible/roles/elk.yml<img width="443" alt="elk install playbook" src="https://user-images.githubusercontent.com/73140949/110365649-4547cf00-8013-11eb-81e1-f2bf29f14ee7.png">
 
 FILEBEAT PLAYBOOK
 
