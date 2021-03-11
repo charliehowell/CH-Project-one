@@ -124,6 +124,6 @@ In order to run the playbook you must first be connected to the jumpbox and atta
 once in the ansible container you must run the following commands:
  - cd /etc/ansible/
  - cd /roles
- - ansible-playbook elk.yml to configure elk
- - ansible-playbook filebeat-playbook.yml to configure filebeat and apply it to the web servers so that elk may collect its system logs
- - ansible-playbook metricbeat-playbook.yml to configure metricbeat and apply it to the web servers so that elk may collect its system metrics
+ - ansible-playbook elk.yml to apply elk configuration to the elk vm
+ - ansible-playbook filebeat-playbook.yml  apply filebeat to the web servers so that elk may collect its system logs
+ - ansible-playbook metricbeat-playbook.yml to apply metricbeat to the web servers so that elk may collect its system metrics
