@@ -120,5 +120,10 @@ Update the /etc/ansible/hosts' file to include 'hosts' group, private IP address
 specify the machines by creating two different hosts sections and applying the host selection in the playbook.
 navigate to the browser and type <the machines public IP>:5601/app/kibana
 
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+In order to run the playbook you must first be connected to the jumpbox and attatched to the ansible container.
+once in the ansible container you must run the following commands:
+ - cd /etc/ansible/
+ - cd /roles
+ - ansible-playbook elk.yml to configure elk
+ - ansible-playbook filebeat-playbook.yml to configure filebeat and apply it to the web servers so that elk may collect its system logs
+ - ansible-playbook metricbeat-playbook.yml to configure metricbeat and apply it to the web servers so that elk may collect its system metrics
